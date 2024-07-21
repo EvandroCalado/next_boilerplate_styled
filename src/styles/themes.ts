@@ -1,0 +1,63 @@
+export const light = {
+  color: {
+    background: '#252627',
+    text: '#FFF9FB',
+    primary: '#BB0A21',
+    secondary: '#4B88A2',
+    alternative: '#D3D4D9',
+  },
+  media: {
+    sm: '(min-width: 640px)',
+    md: '(min-width: 768px)',
+    lg: '(min-width: 1024px)',
+    xl: '(min-width: 1280px)',
+    '2xl': '(min-width: 1536px)',
+  },
+  fontSize: {
+    xs: '1.2rem',
+    sm: '1.4rem',
+    md: '1.6rem',
+    lg: '1.8rem',
+    xl: '2.0rem',
+    '2xl': '2.4rem',
+    '3xl': '3rem',
+    '4xl': '3.6rem',
+    '5xl': '4.8rem',
+    '6xl': '6rem',
+    '7xl': '7.2rem',
+    '8xl': '9.8rem',
+    '9xl': '10,8rem',
+  },
+} as const;
+
+export const dark = {
+  color: {
+    background: '#FFF9FB',
+    text: '#252627',
+    primary: '#BB0A21',
+    secondary: '#4B88A2',
+    alternative: '#D3D4D9',
+  },
+  media: {
+    sm: '(min-width: 640px)',
+    md: '(min-width: 768px)',
+    lg: '(min-width: 1024px)',
+    xl: '(min-width: 1280px)',
+    '2xl': '(min-width: 1536px)',
+  },
+  fontSize: {
+    xs: '1.2rem',
+    sm: '1.4rem',
+    md: '1.6rem',
+    lg: '1.8rem',
+    xl: '2.0rem',
+    '2xl': '2.4rem',
+    '3xl': '3rem',
+    '4xl': '3.6rem',
+    '5xl': '4.8rem',
+    '6xl': '6rem',
+    '7xl': '7.2rem',
+    '8xl': '9.8rem',
+    '9xl': '10,8rem',
+  },
+} as const;

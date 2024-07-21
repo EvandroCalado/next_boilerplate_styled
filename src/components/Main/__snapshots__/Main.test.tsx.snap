@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Should render headind 1`] = `
+.c0 {
+  background-color: #252627;
+  color: #FFF9FB;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.c1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.c1 h1 {
+  font-size: 2.0rem;
+}
+
+.c2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c2 ul {
+  list-style: none;
+}
+
+.c2 li {
+  max-width: 50rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.c2 span {
+  color: #BB0A21;
+  font-weight: 700;
+}
+
+@media (min-width: 640px) {
+  .c0 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 640px) {
+  .c1 h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c1 h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c2 {
+    font-size: 1.2rem;
+  }
+}
+
+<main
+  class="c0"
+>
+  <main
+    class="c1"
+  >
+    <h1>
+      Next Boilerplate
+    </h1>
+    <img
+      alt="Next Boilerplate"
+      data-nimg="1"
+      decoding="async"
+      fetchpriority="high"
+      height="224"
+      src="/image.svg"
+      style="color: transparent;"
+      width="224"
+    />
+  </main>
+  <main
+    class="c2"
+  >
+    <ul>
+      <li>
+        <span>
+          📝 Typescript: 
+        </span>
+        Um superconjunto de JavaScript que adiciona tipagem estática.
+      </li>
+      <li>
+        <span>
+          💄 Styled-Components: 
+        </span>
+        Uma biblioteca para escrever CSS dentro do JavaScript.
+      </li>
+      <li>
+        <span>
+          📚 Storybook: 
+        </span>
+        Uma ferramenta para desenvolver componentes de UI de forma isolada.
+      </li>
+      <li>
+        <span>
+          🧪 Jest: 
+        </span>
+        Um framework de testes em JavaScript com foco em simplicidade.
+      </li>
+      <li>
+        <span>
+          🔮 Plop: 
+        </span>
+        Uma ferramenta para criar arquivos ou diretórios de maneira consistente e automática.
+      </li>
+      <li>
+        <span>
+          🪛 ESLint: 
+        </span>
+        Uma ferramenta de linting para identificar e corrigir problemas no código JavaScript/TypeScript.
+      </li>
+      <li>
+        <span>
+          🪞 Prettier: 
+        </span>
+        Um formatador de código que garante um estilo consistente em todo o projeto.
+      </li>
+      <li>
+        <span>
+          🐻 Husky: 
+        </span>
+        Uma ferramenta para gerenciar hooks de Git.
+      </li>
+    </ul>
+  </main>
+</main>
+`;
